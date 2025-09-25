@@ -1,0 +1,77 @@
+
+
+
+
+
+.sky{
+    height: 52vw;
+    width: 100vw;
+    background-image: url(clod.png.jpg);
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.tree img{
+    width: 100%; 
+    background-repeat: repeat-x;
+    margin-top: 270px;
+    position: absolute;
+}
+
+.track img{
+    width: 800vw; 
+    height: 60vh;
+    background-repeat: repeat-x;
+    margin-top: 820px;
+    position: absolute;
+    animation: carmove linear 6s infinite;
+
+}
+.car img{
+    width: 192px;
+    height: 63px;
+   background-size: cover;
+   position: absolute;
+   left: 444px;
+   top: 820px;
+    
+
+}
+
+.wheel1 img{
+   /* position: relative; */
+    height: 72px;
+    left: 434px;
+    right: 50px;
+    margin-top: 13px;
+    width: 92px;
+    /* animation: WheelRotation linear .6s infinite; */
+    /* transform-origin:center; */
+    background-size: cover;
+}
+
+
+.wheel2 img{
+   position: relative;
+    height: 72px;
+    left: 548px;
+    right: 47px;
+    margin-top: 13px;
+    width: 96px;
+    /* animation: WheelRotation linear .6s infinite; */
+}
+@keyframes WheelRotation
+{
+100%{
+    transform: rotate(360deg);
+}
+}
+@keyframes carmove
+{
+100%{
+    transform: translatex(-500vw);
+}
+}
+
+
+
